@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    width: 250px; /* Adjust width as needed */
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #speedValue {
+    font-weight: bold;
+    min-width: 30px; /* Ensure space for numbers */
+    display: inline-block;
+    text-align: right;
+    margin-right: 2px; /* Space before 'x' */
+  }
+  
+  button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      cursor: pointer;
+  }
